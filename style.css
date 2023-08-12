@@ -1,0 +1,41 @@
+.div-1{
+  margin-top: 30px;
+}
+.resize{
+  height: 250px;
+}
+* {
+    box-sizing: border-box;
+  }
+  .coloum {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .btn{
+    border: 1px solid black;
+    background-color: inherit;
+}
+.div-2{
+    margin-top: 20px;
+}
+  table, th, td {
+    border: 1px solid black;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+textarea{
+  margin-top: 05px;
+  height: 200px;
+  width: 224px;
+}
+#Email{
+  margin-top: 05px;
+}
